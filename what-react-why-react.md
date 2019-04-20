@@ -20,7 +20,7 @@ Bất cứ ai với kiến thức lập trình cơ bản cũng có thể dễ d�
 React có thể được dùng để tạo ra các ứng dụng điện thoại sử dụng React Native. Hỗ trợ việc tái sử dụng code và được coi là thư viện 'learn's once write anywhere' - ' học một lần viết ở khắp nơi'. Với native thì bạn có thể hiểu là React Native cung cấp cho bạn khả năng viết các native app có thể chạy được trên cả Android lẫn iOS.
 
 ### Flux and Redux - Sở hữu Flux và Redux
-![Screenshot from 2019-04-21 00-40-12](/home/khanhpham/Desktop/Screenshot from 2019-04-21 00-40-12.png)
+![redux](/images/what-react-why-react/redux.png)
 
 Ý tưởng cơ bản là tạo ra các action được điều phối bởi một dispatcher trung tâm để update stores (nơi tập trung dữ liệu trên view). Và sau đó các view sẽ được update theo sự thay đổi của store đó. Tất cả các data được display thông qua các component đều được lưu trong store và sẽ không bị duplicate giống như models trong cấu trúc MVC, điều này sẽ giúp bạn dễ dàng đồng bộ dữ liệu với nhau trên toàn bộ ứng dụng.
 
@@ -41,11 +41,11 @@ Mặc dù ngày nay các JavaScript engine vốn đã khá đủ nhanh để x�
 Khi code React có hai tool sẽ thường xuyên được sử dụng mà ta cần để ý đến:  **React Developer Tools** và **Redux Developer Tools**. Cả hai tool này đều có thể được cài đặt thông qua Chrome extensions.
 **React Developer Tools** là công cụ tuyệt vời để inspect React component theo đúng cây nó được sắp xếp và dễ dàng để quan sát được `props` và `states` hiện tại của component đó. Component lựa chọn sẽ được highlight phía bên trái, vị trí của nó trong cây và props của nó được hiển thị bên cột phải.
 
-![Screenshot from 2019-04-21 00-41-08](/home/khanhpham/Desktop/Screenshot from 2019-04-21 00-41-08.png)
+![react-dev-tools](/images/what-react-why-react/react-dev-tools.png)
 
 Nếu bạn đang sử dụng library Redux thì chắc chắn nên xem, tìm kếm **Redux Developer Tools**. Bạn có thể quan sát được các action được dispatch, các state lưu trong store và theo dõi các thay đổi trong store. Đồng thời ta có thể dispatch một action hoặc thay đổi store và theo dõi thay đổi được áp dụng lên page ngay lập tức
 
-![Screenshot from 2019-04-21 00-41-33](/home/khanhpham/Desktop/Screenshot from 2019-04-21 00-41-33.png)
+![redux-dev-tools](/images/what-react-why-react/redux-dev-tools.png)
 
 ## References
 

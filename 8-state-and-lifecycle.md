@@ -81,8 +81,12 @@ export default class TodoForm extends React.Component {
   - **componentDidUpdate()**: hook này được gọi sau khi component đã render html ra DOM lần đầu tiên, và cũng chỉ được gọi đúng một lần trong vòng đời của component.
 
 - Unmounting methods:
+
   - **componentWillUnmount()**: hook này được gọi ngay trước khi component bị xoá khỏi DOM. Hook này là nơi bạn có thể thực hiện các thao tác xoá timer, cancel request, cancel event listener....
   - **componentDidCatch()**: Hook này sẽ được gọi khi component xảy ra bất cứ lỗi nào, ta có thể sử dụng setState trong này để catch các lỗi xảy ra. (hook này mới được thêm vào trong react 16).
+
+- Các bạn có thể xem ví dụ minh hoạ dưới đây
+  ![alt text](https://bzdww.com/cms_static/v2-48e4dd255a7690beaef4d496ac6af7ca_b.jpg 'React lifecycle')
 
 # 3. Tổng kết
 
